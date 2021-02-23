@@ -1,0 +1,104 @@
+{
+"intents": [
+					{
+						"tag": "PY1",
+						"patterns": ["python"],
+						"responses":["Is python a programming or scripting language?"],
+						"options":["Programming","scripting","both","none"],
+						"right_key":"programming",
+                        "wrong_key":"programming",
+						"answer":"programming",
+						"r_reward":10
+					},
+                                        {
+						"tag": "PY2",
+						"patterns": ["programming"],
+						"responses":["Is Python case sensitive when dealing with identifiers?"],
+						"options":["yes","no","machine dependent","none of the mentioned"],
+						"right_key":"case sensitive",
+                        "wrong_key":"case sensitive",
+						"answer":"yes",
+						"r_reward":10
+					},
+					{
+						"tag": "PY3",
+						"patterns": ["case sensitive"],
+						"responses":["Which of the following symbols are used for comments in Python?"],
+						"options":["//","*/","/**/","#"],
+						"right_key":"comments",
+                        "wrong_key":"comments",
+						"answer":"#",
+						"r_reward":10
+					},
+					{
+						"tag": "PY4",
+						"patterns": ["comments"],
+						"responses":["Which of the following operators has the highest precedence?"],
+						"options":["not","&","*","+"],
+						"right_key":"precedence",
+                        "wrong_key":"precedence",
+						"answer":"*",
+						"r_reward":10
+					},					
+                                        {
+						"tag": "PY5",
+						"patterns": ["precedence"],
+						"responses":["Which of the following is not a keyword?"],
+						"options":["eval","assert","nonlocal","pass"],
+						"right_key":"keyword",
+                        "wrong_key":"keyword",
+						"answer":"eval",
+						"r_reward":10
+					},
+					{
+						"tag": "PY6",
+						"patterns": ["keyword"],
+						"responses":["Which keyword is used to define methods in Python?"],
+						"options":["function","def","method","All of these"],
+						"right_key":"method",
+                        "wrong_key":"method",
+						"answer":"def",
+						"r_reward":10
+					},
+					{
+						"tag": "PY7",
+						"patterns": ["method"],
+						"responses":["Which of these in not a core data type?"],
+						"options":["Lists","Dictionary","Tuples","Class"],
+						"right_key":"data type",
+                        "wrong_key":"data type",
+						"answer":"Class",
+						"r_reward":10
+					},
+					{
+						"tag": "PY8",
+						"patterns": ["data type"],
+						"responses":["Which of the following is incorrect file handling mode in Python"],
+						"options":["wb+","ab","xr","ab+"],
+						"right_key":"file handling",
+                        "wrong_key":"file handling",
+						"answer":"xr",
+						"r_reward":10
+					},
+					{
+						"tag": "PY9",
+						"patterns": ["file handling"],
+						"responses":["Suppose list1 is [2, 33, 222, 14, 25], What is list1[-1] ?"],
+						"options":["error","25","33","None"],
+						"right_key":"list",
+                        "wrong_key":"list",
+						"answer":"25",
+						"r_reward":10
+					},
+					{
+						"tag": "PY10",
+						"patterns": ["list"],
+						"responses":["In order to store values in terms of key and value we use what core data type."],
+						"options":["list","tuple","class","dictionary"],
+						"right_key":"end",
+                        "wrong_key":"end",
+						"answer":"dictionary",
+						"r_reward":10
+					}
+             ]
+}
